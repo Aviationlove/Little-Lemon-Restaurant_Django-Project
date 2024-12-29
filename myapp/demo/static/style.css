@@ -1,0 +1,161 @@
+/* General Styles */
+@font-face {
+    font-family: 'Formula1-Regular'; /* Your custom font's name */
+    src: url("fonts/Formula1-Regular.ttf.otf") format('opentype'); /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Formula1-Regular', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Unordered List (Common for Index and Results Templates) */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #388E3C;
+    color: white;
+    text-decoration: none;
+}
+ul, .link-container {
+    text-align: center; /* Centers the link(s) inside */
+}
+.vote-again {
+    display: block; /* Ensures it's treated as a block-level element */
+    margin: 2rem auto; /* Centers horizontally */
+    text-align: center; /* Aligns the text inside the link */
+    text-decoration: none; /* Removes underline */
+    color: white;
+    background-color: #4CAF50;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.vote-again:hover {
+    background-color: #388E3C;
+    color: white;
+    text-decoration: none;
+}
+
+/* Form (Detail Template) */
+form {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+    accent-color: #4CAF50;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    display: block;
+    font-family: 'Formula1-Regular', Arial, sans-serif;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #388E3C;
+}
+
+/* Error Message */
+p {
+    text-align: center;
+    color: #D32F2F;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    ul, form {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+}
