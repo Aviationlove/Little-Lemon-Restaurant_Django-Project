@@ -22,15 +22,14 @@ Little Lemon is a restaurant reservation and menu management web application bui
 
 1. **Clone the repository**
    ```
-   git clone <your-repo-url>
-   cd <project-directory>
+   git clone https://github.com/Aviationlove/Little-Lemon-Restaurant_Django-Project.git
+   cd littlelemon
    ```
 
-2. **Create and activate a virtual environment**
+2. **Activate the virtual environment**
    ```
    # On Windows (PowerShell)
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1
+   Scripts/Activate
    ```
 
 3. **Install dependencies**
@@ -61,6 +60,13 @@ Little Lemon is a restaurant reservation and menu management web application bui
 8. **Access the application**
    - Main site: http://127.0.0.1:8000/
    - Admin: http://127.0.0.1:8000/admin/
+
+## Website Screenshots
+
+Add screenshots of your website below:
+
+![Homepage Screenshot](static/Screenshot%202025-09-15%20225615.png)
+![Booking Page Screenshot](static/Screenshot%202025-09-15%20225704.png)
 
 ## Project Structure
 - `restaurant/` - Main app with models, views, forms, templates
