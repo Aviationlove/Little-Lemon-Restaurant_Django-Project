@@ -62,10 +62,10 @@ Little Lemon is a restaurant reservation and menu management web application bui
    - Admin: http://127.0.0.1:8000/admin/
 
 ## Website Screenshots
-
-Add screenshots of your website below:
-
+Homepage
 ![Homepage Screenshot](littlelemon/static/Screenshot%202025-09-15%20225615.png)
+
+Booking page
 ![Booking Page Screenshot](littlelemon/static/Screenshot%202025-09-15%20225704.png)
 
 ## Project Structure
