@@ -65,8 +65,8 @@ Little Lemon is a restaurant reservation and menu management web application bui
 
 Add screenshots of your website below:
 
-![Homepage Screenshot](static/Screenshot%202025-09-15%20225615.png)
-![Booking Page Screenshot](static/Screenshot%202025-09-15%20225704.png)
+![Homepage Screenshot](littlelemon/static/Screenshot%202025-09-15%20225615.png)
+![Booking Page Screenshot](littlelemon/static/Screenshot%202025-09-15%20225704.png)
 
 ## Project Structure
 - `restaurant/` - Main app with models, views, forms, templates
